@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  padding: 0.5rem 0rem;
+  font-size: larger;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
+}
+
+.input {
+  padding: 2px 0px;
+  border: 0;
+}
+
+.input-primary {
+  background: aqua;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 2px 10px;
+  border: 1px solid aqua;
+}
+
+.btn-primary {
+  background: #0596967b;
+  border-radius: 4px;
+  border-color: aqua;
+  transition: none;
+}
+.btn-primary:hover {
+  background: #079696;
+  border-radius: 4px;
+  border-color: aqua;
+}
+
+.btn-outline {
+  background: none;
+  border-radius: 4px;
+}
+
+.btn-red {
+  color: red;
+  border-color: red;
+  transition: none;
+}
+
+.btn-red:hover {
+  color: white;
+  background-color: red;
+}
+
+.list {
+  list-style: none;
+}
